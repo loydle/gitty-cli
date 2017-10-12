@@ -7,7 +7,7 @@ git add -v .
 # commit
 
 if [ $# -eq 0 ]; then 
-	printf "message: "
+	echo -n "message: "
 	read msg
 	echo
 else 
