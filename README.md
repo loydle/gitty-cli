@@ -6,10 +6,9 @@ gitty-cli
 ### Usage
 
 `$ gitty` 
-
 or
-
 `$ gitty [message]`
+
 ![usage](https://image.ibb.co/f3rSJw/gitty_example.png)
 
 ----------
