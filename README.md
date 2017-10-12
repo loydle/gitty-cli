@@ -1,7 +1,7 @@
 gitty-cli
 ===========================
 
-> Add, Commit and push in one command! :sparkles:
+> Add, Commit and push changes in one command! :sparkles:
 
 ### Usage
 
