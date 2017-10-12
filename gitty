@@ -4,9 +4,7 @@
 git add .
 
 # get commit message
-printf "Message: "
-read msg
-git commit -m "$msg"
+git commit -m "$@"
 
 # push
 git push
