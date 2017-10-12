@@ -6,7 +6,7 @@ git add -v .
 
 # commit
 
-if [ -n  $@ ]; then 
+if [ -n "$@" ]; then 
 	printf "message: "
 	read msg
 	echo
