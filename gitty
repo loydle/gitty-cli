@@ -1,16 +1,19 @@
 #!/bin/bash
 echo
+
 # add all changes
 git add -v .
 
-# get commit message
-printf "message: "
-read msg
-echo
-
-# commit 
-git commit -m "$msg"
-
+if [ $@ ~ ""  ]; then 
+	printf "message: "
+	read msg
+	echo
+	# commit 
+	git commit -m "$msg"
+else 
+	# commit 
+	git commit -m "$@"
+fi
 # push
 git push
 
