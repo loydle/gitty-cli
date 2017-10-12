@@ -7,6 +7,8 @@ gitty-cli
 
 `$ gitty` 
 
+![usage](https://image.ibb.co/f3rSJw/gitty_example.png)
+
 ----------
 ### Install 
 `$ git clone https://github.com/loydle/gitty-cli.git`
