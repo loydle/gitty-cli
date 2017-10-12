@@ -1,19 +1,22 @@
 #!/bin/bash
 echo
 
-# add all changes
+# add changes
 git add -v .
 
 # commit
 
 if [ $# -eq 0 ]; then 
+	# get commit message from prompt stdin
 	echo -n "message: "
 	read msg
 	echo
 else 
+	# get message from params
 	msg=$(echo $@ | awk '// {print}')
 fi
 
+# commit
 git commit -m "$msg"
 
 # push
