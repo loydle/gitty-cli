@@ -1,12 +1,19 @@
 #!/bin/bash
-
+echo
+echo
 # add all changes
-git add .
+git add -v .
 
 # get commit message
-git commit -m "$@"
+printf "message: "
+read msg
+
+# commit 
+git commit -m "$msg"
 
 # push
 git push
 
+echo 
+echo
 

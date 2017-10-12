@@ -4,8 +4,8 @@ gitty-cli
 > Add, Commit and push in one command! :sparkles:
 
 ### Usage
-`$ gitty [message]` 
 
+`$ gitty` 
 
 ----------
 ### Install 
