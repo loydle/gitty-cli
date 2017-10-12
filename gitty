@@ -4,16 +4,18 @@ echo
 # add all changes
 git add -v .
 
+# commit
+
 if [ -n  $@ ]; then 
 	printf "message: "
 	read msg
 	echo
-	# commit 
-	git commit -m "$msg"
 else 
-	# commit 
-	git commit -m "$@"
+	msg=$(echo $@ | awk '// {print}')
 fi
+
+git commit -m "$msg"
+
 # push
 git push
 
