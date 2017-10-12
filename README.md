@@ -9,7 +9,9 @@ Add, Commit and push in one command.
 
 ----------
 ### Install 
-Git clone
+`$ git clone https://github.com/loydle/gitty-cli.git`
+
+`$ mkdir -p ~/.personal_bin` 
 
 `$ mv [download_directory]/gitty-cli/gitty ~/.personal_bin/gitty`
 
@@ -17,7 +19,7 @@ Git clone
 
 `$ chmod 755 gitty`
 
-`$ vim ~/.bash profile`
+`$ [vim] ~/.bash profile`
 
 
 add the following line to ~/.bash_profile 
