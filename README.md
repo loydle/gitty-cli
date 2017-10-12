@@ -1,5 +1,5 @@
 # gitty-cli
-Add, Commit and push in one command.
+` Add, Commit and push in one command.`
 
 
 
