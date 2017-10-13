@@ -2,15 +2,13 @@
 echo
 read -p "Are you sure? " -n 1 -r
 echo    # (optional) move to a new line
-if [[ $REPLY =~ ^[YyeEsS] ]]
+if [[ $REPLY =~ ^[Yy] ]]
 	then
-
 
 	# add changes
 	git add -v .
 
-	# commit
-
+	# if no args provided
 	if [ $# -eq 0 ]; then 
 		# get commit message from prompt stdin
 		echo -n "message: "
