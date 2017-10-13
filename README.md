@@ -9,7 +9,7 @@ gitty-cli
 or
 `$ gitty [message]`
 
-![usage](https://img15.hostingpics.net/pics/201349Capturedcran20171013181832.png)
+![usage](https://img15.hostingpics.net/pics/966607Capturedcran20171013182104.png)
 
 ----------
 ### Install 
